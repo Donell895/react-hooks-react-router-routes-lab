@@ -1,8 +1,13 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+// NavBar.js
+
+import React from 'react';
 
 function NavBar() {
-  return <div>{/*{code here}*/}</div>;
+  return (
+    <div data-testid="navbar-container" className="navbar">
+      {/* Your NavLink components */}
+    </div>
+  );
 }
 
 export default NavBar;
